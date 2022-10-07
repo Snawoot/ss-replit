@@ -2,7 +2,7 @@ run = ["make", "run"]
 
 # If the main file is changed, also change it in Makefile.
 entrypoint = "run.sh"
-hidden = []
+hidden = [".gitignore"]
 
 [languages.go]
 pattern = "**/*.go"
